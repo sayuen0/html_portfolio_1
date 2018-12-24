@@ -1,0 +1,35 @@
+// global
+body {
+  background: rgba($color:skyblue, $alpha:0.4);
+}
+
+// main
+
+logo_h {
+  span.sub_span {
+    font-size: 15px;
+  }
+}
+
+table {
+  margin: auto;
+  text-align: center;
+
+
+
+  td {
+    min-height: 80px;
+    vertical-align: middle;
+    padding: 20px 50px;
+  }
+
+  th {
+    width: 400px;
+    border-bottom: 1px solid black;
+  }
+
+  td {
+    width: 600px;
+    border-bottom: 1px solid gray;
+  }
+}
