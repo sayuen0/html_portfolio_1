@@ -60,17 +60,22 @@ main {
     height: 4px;
     margin-left: -25px;
     background-color: #d65050; }
-  #member_logo .profiles_container {
-    margin: 20px 50px;
-    display: flex;
-    justify-content: space-around; }
-  #member_logo .profile_wrapper {
-    width: 25%;
-    text-align: center; }
-    #member_logo .profile_wrapper .name {
-      color: red; }
-  #member_logo img {
-    width: 100%; }
+
+.profiles_container {
+  margin: 20px 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+
+.profile_wrapper {
+  width: 25%;
+  text-align: center;
+  flex: 0 0 30%; }
+  .profile_wrapper .name {
+    color: red; }
+
+img {
+  width: 100%; }
 
 a.link {
   display: block;
@@ -104,5 +109,15 @@ footer {
     display: inline-block;
     vertical-align: middle;
     line-height: normal; }
+  footer a {
+    width: 30px;
+    height: 30px;
+    background-color: mediumslateblue;
+    position: fixed;
+    right: 20px;
+    color: white;
+    bottom: 20px; }
+    footer a:hover {
+      background-color: red; }
 
 /*# sourceMappingURL=index.css.map */

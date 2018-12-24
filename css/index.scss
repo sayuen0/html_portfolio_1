@@ -15,7 +15,6 @@ nav {
     font-size: 2.5rem;
 
     a {
-
       display: block;
       width: 500px;
 
@@ -88,27 +87,33 @@ main {
     background-color: #d65050;
   }
 
-  .profiles_container {
-    margin: 20px 50px;
-    display: flex;
-    justify-content: space-around;
-  }
 
-  .profile_wrapper {
-    width: 25%;
-    text-align: center;
-
-    .name {
-      color: red;
-    }
-  }
-
-  img {
-    width: 100%;
-  }
 
 }
 
+.profiles_container {
+  margin: 20px 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+
+}
+
+
+.profile_wrapper {
+  width: 25%;
+  text-align: center;
+  flex: 0 0 30%;
+
+  .name {
+    color: red;
+  }
+}
+
+img {
+  width: 100%;
+}
 
 a.link {
   display: block;
@@ -154,4 +159,17 @@ footer {
     line-height: normal;
   }
 
+  a {
+    width: 30px;
+    height: 30px;
+    background-color: mediumslateblue;
+    position: fixed;
+    right: 20px;
+    color: white;
+    bottom: 20px;
+
+    &:hover {
+      background-color: red;
+    }
+  }
 }
