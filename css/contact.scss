@@ -1,5 +1,11 @@
 // main
 
+body.contact_back {
+  background-image: url(../img/back_water_surface.jpg);
+  background-size: cover;
+
+}
+
 main {
   min-height: 700px;
 
@@ -9,7 +15,15 @@ main {
     font-size: 2.5rem;
     font-family: sans-serif;
   }
+
+
+  .contact_mask {
+    height: 100%;
+    background: rgba($color:white, $alpha:0.4);
+  }
 }
+
+
 
 
 ul.questions_list {
@@ -17,6 +31,8 @@ ul.questions_list {
   margin: 20px 50px;
 
   li {
+    font-weight: bold;
+
     .question_body {
       color: deeppink;
 
@@ -28,7 +44,7 @@ ul.questions_list {
     }
 
     .answer_body {
-      color: gray;
+      color: black;
 
       &:before {
         content: "A.  ";
