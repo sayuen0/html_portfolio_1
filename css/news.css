@@ -2,6 +2,9 @@ div.back {
   background-image: url("/Users/aki/VScodeWorkspace/html&css/portfolio_1/img/newsback.jpg");
   background-size: cover;
   width: 100%; }
+  div.back .back_mask {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); }
 
 ul.news_list {
   display: block;
@@ -13,7 +16,6 @@ ul.news_list {
     ul.news_list li img.news_image {
       width: 100px;
       height: 100px;
-      margin-right: 20px;
-      vertical-align: middle; }
+      margin-right: 20px; }
 
 /*# sourceMappingURL=news.css.map */

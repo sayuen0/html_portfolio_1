@@ -1,0 +1,25 @@
+main {
+  min-height: 700px; }
+  main .contact_heading {
+    text-align: center;
+    color: gray;
+    font-size: 2.5rem;
+    font-family: sans-serif; }
+
+ul.questions_list {
+  display: block;
+  margin: 20px 50px; }
+  ul.questions_list li .question_body {
+    color: deeppink; }
+    ul.questions_list li .question_body:before {
+      content: "Q.  ";
+      position: relative;
+      left: -1em; }
+  ul.questions_list li .answer_body {
+    color: gray; }
+    ul.questions_list li .answer_body:before {
+      content: "A.  ";
+      position: relative;
+      left: -0.5em; }
+
+/*# sourceMappingURL=contact.css.map */
