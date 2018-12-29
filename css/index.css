@@ -2,6 +2,7 @@
 @import url("./news.css");
 @import url("./contact.css");
 @import url("./company.css");
+@import url("./form.css");
 /* nav */
 nav {
   width: 100%;
@@ -18,19 +19,24 @@ nav {
       display: block;
       width: 500px; }
       nav p a:hover {
-        color: black; }
+        color: yellowgreen;
+        text-shadow: 5px 5px 5px black; }
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20px 0 auto; }
+  nav li {
+    list-style: none;
+    margin-left: 20px;
+    line-height: 100px; }
+    nav li a {
+      display: inline-block; }
+      nav li a:hover {
+        color: yellowgreen;
+        text-shadow: 5px 5px 5px black; }
   nav a {
     text-decoration: none;
     color: white; }
-
-ul {
-  display: flex;
-  justify-content: flex-end;
-  margin: 0 20px 0 auto; }
-
-li {
-  list-style: none;
-  margin-left: 20px; }
 
 /* header */
 .movie {
@@ -52,7 +58,7 @@ main {
 
 .logo_h {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   position: relative;
   padding: 0 0 10px 0; }
   .logo_h:before {
@@ -60,9 +66,9 @@ main {
     position: absolute;
     left: 50%;
     bottom: 0;
-    width: 50px;
+    width: 100px;
     height: 4px;
-    margin-left: -25px;
+    margin-left: -50px;
     background-color: #d65050; }
 
 .profiles_container {
