@@ -4,13 +4,12 @@
   text-align: center;
 }
 
-
 /*body*/
-table {
+table#table_form {
   margin-top: 50px;
   margin-bottom: 100px;
 
-  tr:last-child>td {
+  tr:last-child > td {
     padding-top: 50px;
     border-bottom: none;
   }
@@ -24,7 +23,6 @@ th {
     padding: 0 1em;
     margin-left: 1em;
   }
-
 }
 
 textarea {

@@ -4,10 +4,10 @@
   text-align: center; }
 
 /*body*/
-table {
+table#table_form {
   margin-top: 50px;
   margin-bottom: 100px; }
-  table tr:last-child > td {
+  table#table_form tr:last-child > td {
     padding-top: 50px;
     border-bottom: none; }
 
