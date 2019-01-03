@@ -9,6 +9,8 @@ main {
     color: gray;
     font-size: 2.5rem;
     font-family: sans-serif; }
+  main .questions_list {
+    list-style: none; }
   main .contact_mask {
     height: 100%;
     background: rgba(255, 255, 255, 0.4); }
